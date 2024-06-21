@@ -11,6 +11,7 @@ public class CarDatabaseApplication {
 		CarDatabaseApplication.class
 	);
 
+
 	public static void main(String[] args) {
 		// test dev tools
 		SpringApplication.run(CarDatabaseApplication.class, args);
