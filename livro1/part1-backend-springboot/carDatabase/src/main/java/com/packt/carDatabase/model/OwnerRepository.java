@@ -1,4 +1,4 @@
-package com.packt.carDatabase.domain;
+package com.packt.carDatabase.model;
 
 import org.springframework.data.repository.CrudRepository;
 

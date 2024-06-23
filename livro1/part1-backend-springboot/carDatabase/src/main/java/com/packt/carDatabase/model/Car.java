@@ -1,4 +1,4 @@
-package com.packt.carDatabase.domain;
+package com.packt.carDatabase.model;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
@@ -56,6 +56,11 @@ public class Car {
 		this.id = id;
 	}
 
+	/**
+	 * Retrieves the brand of the car.
+	 *
+	 * @return the brand of the car as a string
+	 */
 	public String getBrand() {
 		return brand;
 	}
