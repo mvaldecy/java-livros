@@ -23,7 +23,7 @@ public class CarDatabaseApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		// userRepository.save(new User("admin", "$2y$10$G2RhJHgK9MCROgbpx.VIoODYUkvICjRNRyYXB/fXYdMurIlTfzFI.", "ADMIN"));
+		userRepository.save(new User("adminteste", "admin", "ADMIN"));
 	}
 
 	public static void main(String[] args) {
